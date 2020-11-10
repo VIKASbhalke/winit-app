@@ -1,9 +1,11 @@
 <resources>
     <string name="app_name">winit</string>
     <string name="button">go</string>
-    <string name="textview">welcome to Winit</string>
-    <string name="home_button">home</string>
-    <string name="todo">logo</string>
+    <string name="text_view">welcome to Winit</string>
     <string name="string_story_btn">story</string>
-    <string name="checkbox">donate now</string>
+    <string name="home_button">home</string>
+    <string name="applogo">lo</string>
+    <string name="calendarbutton">calb</string>
+    <string name="faqsbutton">faq</string>
+    <string name="welcome_wnt">WELCOME TO Winit</string>
 </resources>
