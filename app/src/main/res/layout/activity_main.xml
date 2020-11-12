@@ -13,12 +13,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button"
+        android:textColor="#9E4CFD"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.739"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.807" />
+        app:layout_constraintVertical_bias="0.617" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,4 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".homepage"/>
+    tools:context=".homepage">
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="127dp"
+        android:layout_height="64dp"
+        android:contentDescription="@string/imagebutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.956"
+        app:srcCompat="@drawable/calen" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="124dp"
+        android:layout_height="64dp"
+        android:contentDescription="@string/faq"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.979"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.956"
+        app:srcCompat="@drawable/faq" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="145dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.956"
+        app:srcCompat="@drawable/home"
+        android:contentDescription="@string/home" />
+</androidx.constraintlayout.widget.ConstraintLayout>

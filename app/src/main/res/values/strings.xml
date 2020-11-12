@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">winit</string>
     <string name="button">next</string>
+    <string name="imagebutton">TODO</string>
+    <string name="faq">TODO</string>
+    <string name="home">TODO</string>
 
 </resources>
