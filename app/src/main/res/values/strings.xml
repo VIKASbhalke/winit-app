@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">winit</string>
-    <string name="button">go</string>
+    <string name="button">next</string>
 
 </resources>
