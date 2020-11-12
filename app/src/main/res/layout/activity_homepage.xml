@@ -7,24 +7,39 @@
     tools:context=".homepage">
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/imageButton7"
         android:layout_width="110dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="20dp"
-        android:contentDescription="@string/home_btn"
+        android:layout_height="65dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/home"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton9"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/home" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imageButton9"
         android:layout_width="110dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="20dp"
-        android:contentDescription="@string/faq_btn"
+        android:layout_height="65dp"
+        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/faq" />
+        app:srcCompat="@drawable/faq"
+        android:contentDescription="@string/faqs" />
+
+    <ImageButton
+        android:id="@+id/imageButton10"
+        android:layout_width="110dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintStart_toEndOf="@+id/imageButton9"
+        app:srcCompat="@drawable/calen"
+        android:contentDescription="@string/calendar" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
