@@ -2,6 +2,8 @@
     <string name="app_name">winit</string>
     <string name="button">next</string>
     <string name="faqbutton">faq</string>
+    <string name="homebutton">home</string>
+    <string name="calendarbutton">cal</string>
 
 
 </resources>
