@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
 public class MainActivity extends AppCompatActivity {
     private Button button;
     @Override
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public void openhomepage(){
-        Intent intent=new Intent(this,homepage.class);
+        Intent intent=new Intent(this,HomeActivity.class);
         startActivity(intent);
     }
 }

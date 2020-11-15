@@ -1,10 +1,7 @@
 <resources>
     <string name="app_name">winit</string>
     <string name="button">next</string>
-    <string name="home">homebutton</string>
-
-    <string name="calendar">TODO</string>
-    <string name="faqs">faqbtn</string>
+    <string name="faqbutton">faq</string>
 
 
 </resources>
