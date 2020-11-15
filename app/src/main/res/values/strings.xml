@@ -4,6 +4,12 @@
     <string name="faqbutton">faq</string>
     <string name="homebutton">home</string>
     <string name="calendarbutton">cal</string>
+    <string name="donatebutton">donate</string>
+    <string name="fund_raised">fund raised</string>
+    <string name="target">TARGET</string>
+    <string name="enter_phone_no">enter phone no.</string>
+    <string name="if_you_wish_to_donate_tap_on_donate">IF YOU WISH TO DONATE TAP ON DONATE</string>
+    <string name="profile_pic">profile</string>
 
 
 </resources>
