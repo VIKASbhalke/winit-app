@@ -12,7 +12,6 @@
         android:layout_height="60dp"
 
         android:layout_marginBottom="16dp"
-        android:backgroundTint="#4CAF50"
         android:text="@string/faqbutton"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
