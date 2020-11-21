@@ -6,97 +6,64 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
-    <Button
-        android:id="@+id/faqbutton"
-        android:layout_width="80dp"
-        android:layout_height="60dp"
-
-        android:layout_marginBottom="16dp"
-        android:text="@string/faqbutton"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <ImageButton
-        android:id="@+id/homebutton"
-        android:layout_width="80dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="16dp"
-        android:contentDescription="@string/homebutton"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/faqbutton"
-        app:layout_constraintHorizontal_bias="0.505"
+        android:id="@+id/faq"
+        android:layout_width="308dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/home" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/appfaqbutton2"
+        android:contentDescription="@string/faq" />
 
     <ImageButton
-        android:id="@+id/calendarbutton"
-        android:layout_width="80dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="16dp"
-        android:contentDescription="@string/calendarbutton"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/schedule"
+        android:layout_width="308dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/schedule"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/faqbutton"
-        app:srcCompat="@drawable/calen" />
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/faq"
+        app:srcCompat="@drawable/appcalendarbutton" />
 
-    <Button
+    <ImageButton
+        android:id="@+id/feedback"
+        android:layout_width="308dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/feedback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contact"
+        app:srcCompat="@drawable/feedbackbuttons" />
+
+    <ImageButton
         android:id="@+id/donatebutton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/donatebutton"
-        android:textSize="20sp"
-        android:backgroundTint="@color/colorAccent"
-        app:layout_constraintBottom_toTopOf="@+id/calendarbutton"
+        android:layout_width="308dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/donatebutton"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.88" />
+        app:layout_constraintTop_toBottomOf="@+id/schedule"
+        app:srcCompat="@drawable/donatebuttons" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/fund_raised"
-        android:textAllCaps="true"
-        android:textColor="@android:color/background_dark"
-        android:textSize="24sp"
-        android:textStyle="normal"
-        app:layout_constraintBottom_toTopOf="@+id/donatebutton"
+    <ImageButton
+        android:id="@+id/contact"
+        android:layout_width="308dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="28dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.617" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/target"
-        android:textColor="@android:color/background_dark"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.110000014" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="12dp"
-        android:text="@string/if_you_wish_to_donate_tap_on_donate"
-        android:textColor="@android:color/background_dark"
-        android:textSize="14sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/donatebutton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:layout_constraintVertical_bias="0.75" />
+        app:layout_constraintTop_toBottomOf="@+id/donatebutton"
+        app:srcCompat="@drawable/contactbuttons"
+        android:contentDescription="@string/contact" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

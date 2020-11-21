@@ -9,50 +9,67 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 public class HomeActivity extends AppCompatActivity {
-    private Button faqbutton;
-    private ImageButton calendarbutton;
-    private Button donatebutton;
+
+    private ImageButton donatebutton;
+    private ImageButton faq;
+    private ImageButton feedback;
+    private ImageButton contact;
+    private ImageButton schedule;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-       calendarbutton=findViewById(R.id.calendarbutton) ;
-       calendarbutton.setOnClickListener(new View.OnClickListener() {
-           @Override
-           public void onClick(View v) {
-               Intent calintent=new Intent(HomeActivity.this,calendarActivity.class);
-               startActivity(calintent);
-           }
-       });
-       donatebutton=findViewById(R.id.donatebutton);
-       donatebutton.setOnClickListener(new View.OnClickListener() {
-           @Override
-           public void onClick(View v) {
-               Intent donateintent=new Intent(HomeActivity.this,donateActivity.class);
-               startActivity(donateintent);
-           }
-       });
-
-
-
-
-
-
-
-
-
-
-        faqbutton=findViewById(R.id.faqbutton);
-        faqbutton.setOnClickListener(new View.OnClickListener(){
+        schedule=findViewById(R.id.schedule);
+        schedule.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openfaqpage();
+              Intent calintent=new Intent(HomeActivity.this,calendarActivity.class);
+              startActivity(calintent);
             }
         });
-    }
-    public void openfaqpage(){
-        Intent catintent=new Intent(this,FaqActivity.class);
-        startActivity(catintent);
+        contact=findViewById(R.id.contact);
+        contact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent contactin=new Intent(HomeActivity.this,contactActivity.class);
+                startActivity(contactin);
+            }
+        });
+        feedback=findViewById(R.id.feedback);
+        feedback.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent feedbackin=new Intent(HomeActivity.this,feedbackActivity.class);
+                startActivity(feedbackin);
+            }
+        });
+        faq=findViewById(R.id.faq);
+        faq.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent faqintent=new Intent(HomeActivity.this,FaqActivity.class);
+                startActivity(faqintent);
+            }
+        });
+
+        donatebutton = findViewById(R.id.donatebutton);
+        donatebutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent donateintent = new Intent(HomeActivity.this, donateActivity.class);
+                startActivity(donateintent);
+            }
+        });
+
     }
 }
+
+
+
+
+
+
+
+
+
