@@ -6,5 +6,7 @@
     <string name="feedback">feedbackbutton</string>
     <string name="donatebutton">donatebutton</string>
     <string name="schedule">schedulebtn</string>
+    <string name="date_view">Set the Date</string>
+
 
 </resources>
