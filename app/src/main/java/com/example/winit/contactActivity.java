@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class contactActivity extends AppCompatActivity {
 
     // define objects for edit text and button
-    Button send_email;
+    private Button send_email;
     EditText send_to,email_subject,email_body ;
 
     @Override
@@ -40,22 +40,15 @@ public class contactActivity extends AppCompatActivity {
 
                 // define Intent object
                 // with action attribute as ACTION_SEND
-                Intent intent = new Intent(Intent.ACTION_SEND);
+                Intent conintent = new Intent(Intent.ACTION_SEND);
 
-                intent.putExtra(Intent.EXTRA_EMAIL,
+                conintent.putExtra(Intent.EXTRA_EMAIL,
                         new String[] { emailsend });
-                intent.putExtra(Intent.EXTRA_SUBJECT, emailsubject);
-                intent.putExtra(Intent.EXTRA_TEXT, emailbody);
-
-                // set type of intent
-                intent.setType("message/rfc822");
-
-                // startActivity with intent with chooser
-                // as Email client using createChooser function
+                conintent.putExtra(Intent.EXTRA_SUBJECT, emailsubject);
+                conintent.putExtra(Intent.EXTRA_TEXT, emailbody);
+                conintent.setType("message/rfc822");
                 startActivity(
-                        Intent
-                                .createChooser(intent,
-                                        "Choose an Email client :"));
+                        Intent.createChooser(conintent, "Choose an Email client :"));
             }
         });
     }
