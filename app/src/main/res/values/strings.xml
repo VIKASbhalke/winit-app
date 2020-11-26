@@ -7,6 +7,10 @@
     <string name="donatebutton">donatebutton</string>
     <string name="schedule">schedulebtn</string>
     <string name="date_view">Set the Date</string>
+    <string name="send_to">send to:</string>
+    <string name="email_subject">email subject:</string>
+    <string name="email_body">email body:</string>
+    <string name="send_email">send email!!</string>
 
 
 </resources>
