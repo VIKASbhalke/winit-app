@@ -16,6 +16,11 @@
     <string name="colcanbutton">col</string>
     <string name="brecanbutton">brecan</string>
     <string name="prcanbutton">prcan</string>
-
+    <string name="upi_id"></string>
+    <string name="name"></string>
+    <string name="amount">Amount</string>
+    <string name="enter_name">NAME</string>
+    <string name="upi_id_">upi id:</string>
+    <string name="pay_nowbutton">pay now</string>
 
 </resources>
