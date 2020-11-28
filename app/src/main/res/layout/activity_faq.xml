@@ -6,4 +6,62 @@
     android:layout_height="match_parent"
     tools:context=".FaqActivity">
 
+    <ImageButton
+        android:id="@+id/colcanbutton"
+        android:layout_width="308dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/colcanbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lungcanbutton"
+        app:srcCompat="@drawable/collcanbutton" />
+
+    <ImageButton
+        android:id="@+id/skincanbutton"
+        android:layout_width="308dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/skincanbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prcanbutton"
+        app:srcCompat="@drawable/skin_button" />
+
+    <ImageButton
+        android:id="@+id/lungcanbutton"
+        android:layout_width="308dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="70dp"
+        android:contentDescription="@string/lungcanbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lungbutton" />
+
+    <ImageButton
+        android:id="@+id/brecanbutton"
+        android:layout_width="308dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/brecanbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/colcanbutton"
+        app:srcCompat="@drawable/brecanbutton" />
+
+    <ImageButton
+        android:id="@+id/prcanbutton"
+        android:layout_width="308dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/prcanbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brecanbutton"
+        app:srcCompat="@drawable/prcanbutton" />
 </androidx.constraintlayout.widget.ConstraintLayout>

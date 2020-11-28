@@ -11,6 +11,11 @@
     <string name="email_subject">email subject:</string>
     <string name="email_body">email body:</string>
     <string name="send_email">send email!!</string>
+    <string name="lungcanbutton">lung</string>
+    <string name="skincanbutton">skin</string>
+    <string name="colcanbutton">col</string>
+    <string name="brecanbutton">brecan</string>
+    <string name="prcanbutton">prcan</string>
 
 
 </resources>
