@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/faqbacground"
     tools:context=".FaqActivity">
 
     <ImageButton
@@ -34,7 +35,7 @@
         android:id="@+id/lungcanbutton"
         android:layout_width="308dp"
         android:layout_height="77dp"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="90dp"
         android:contentDescription="@string/lungcanbutton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
