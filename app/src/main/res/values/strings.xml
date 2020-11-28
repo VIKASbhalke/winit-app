@@ -22,5 +22,9 @@
     <string name="enter_name">NAME</string>
     <string name="upi_id_">upi id:</string>
     <string name="pay_nowbutton">pay now</string>
+    <string name="type_event">Type event</string>
+    <string name="addeventbtn">add event</string>
+    <string name="remind_me">Remind me</string>
+    <string name="_00_00am">00:00AM</string>
 
 </resources>

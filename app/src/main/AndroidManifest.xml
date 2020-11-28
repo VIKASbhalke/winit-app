@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".setnotificationActivity"></activity>
+        <activity android:name=".coloreccanActivity"></activity>
+        <activity android:name=".lungcanActivity" />
+        <activity android:name=".prostratecanActivity" />
+        <activity android:name=".brecancerActivity" />
+        <activity android:name=".skincancerActivity" />
+        <activity android:name=".setnotificationActivity" />
         <activity android:name=".contactActivity" />
         <activity android:name=".feedbackActivity" />
         <activity android:name=".donateActivity" />
