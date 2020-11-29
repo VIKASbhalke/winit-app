@@ -8,9 +8,7 @@
     <string name="schedule">schedulebtn</string>
     <string name="date_view">Set the Date</string>
     <string name="send_to">send to:</string>
-    <string name="email_subject">email subject:</string>
-    <string name="email_body">email body:</string>
-    <string name="send_email">send email!!</string>
+    <string name="email_body" translatable="false">email body:</string>
     <string name="lungcanbutton">lung</string>
     <string name="skincanbutton">skin</string>
     <string name="colcanbutton">col</string>
@@ -32,9 +30,11 @@
     <string name="string_textview">ggsh</string>
     <string name="lung_cancer">lung cancer</string>
     <string name="symptoms">Symptoms</string>
-    <string name="name_of_user"></string>
-    <string name="enter_username" />
-    <string name="feedback_user" />
     <string name="send_feedback">send feedback</string>
+    <string name="enterusern"></string>
+    <string name="feedbacksubmit"></string>
+    <string name="name_textview">name</string>
+    <string name="type_feedback">type feedback</string>
+
 
 </resources>
