@@ -32,5 +32,9 @@
     <string name="string_textview">ggsh</string>
     <string name="lung_cancer">lung cancer</string>
     <string name="symptoms">Symptoms</string>
+    <string name="name_of_user"></string>
+    <string name="enter_username" />
+    <string name="feedback_user" />
+    <string name="send_feedback">send feedback</string>
 
 </resources>
