@@ -26,5 +26,11 @@
     <string name="addeventbtn">add event</string>
     <string name="remind_me">Remind me</string>
     <string name="_00_00am">00:00AM</string>
+    <string name="lungcaninfo">Lung cancer is a type of cancer that begins in the lungs.Your lungs are two spongy organs in your chest that take in oxygen when you inhale and release carbon dioxide when you exhale.Lung cancer is the leading cause of cancer deaths worldwide.People who smoke have the greatest risk of lung cancer,though lung cancer can also occur in people who have never smoked.The risk of lung cancer increases with the length of time and number of cigarettes you have smoked.If you quit smoking,even after smoking for many years,you can significantly reduce your chances of developing lung cancer.
+</string>
+    <string name="textview">TextView</string>
+    <string name="string_textview">ggsh</string>
+    <string name="lung_cancer">lung cancer</string>
+    <string name="symptoms">Symptoms</string>
 
 </resources>
