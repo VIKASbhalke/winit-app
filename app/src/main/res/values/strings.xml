@@ -24,17 +24,23 @@
     <string name="addeventbtn">add event</string>
     <string name="remind_me">Remind me</string>
     <string name="_00_00am">00:00AM</string>
-    <string name="lungcaninfo">Lung cancer is a type of cancer that begins in the lungs.Your lungs are two spongy organs in your chest that take in oxygen when you inhale and release carbon dioxide when you exhale.Lung cancer is the leading cause of cancer deaths worldwide.People who smoke have the greatest risk of lung cancer,though lung cancer can also occur in people who have never smoked.The risk of lung cancer increases with the length of time and number of cigarettes you have smoked.If you quit smoking,even after smoking for many years,you can significantly reduce your chances of developing lung cancer.
-</string>
     <string name="textview">TextView</string>
     <string name="string_textview">ggsh</string>
-    <string name="lung_cancer">lung cancer</string>
-    <string name="symptoms">Symptoms</string>
     <string name="send_feedback">send feedback</string>
     <string name="enterusern"></string>
     <string name="feedbacksubmit"></string>
     <string name="name_textview">name</string>
     <string name="type_feedback">type feedback</string>
+    <string name="lungcanview">Lung cancer</string>
+    <string name="skin_cancer">Skin cancer</string>
+    <string name="skincan_info">Skin cancer — the abnormal growth of skin cells — most often develops on skin exposed to the sun.But this common form of cancer can also occur on areas of your skin not ordinarily exposed to sunlight.There are three main types of skin cancer:
+</string>
+    <string name="cell_carcinoma">1.basal cell carcinoma 2.squamous cell carcinoma 3.melanoma</string>
+    <string name="sym_skincaan">Skin cancer symptoms</string>
+    <string name="sksym">The sooner a skin cancer is identified and treated, the better your chance of avoiding surgery or, in the case of a serious melanoma or other skin cancer, potential disfigurement or even death.</string>
+    <string name="skcann">It is also a good idea to talk to your doctor about your level of risk and for advice on early detection.Become familiar with the look of your skin, so you pick up any changes that might suggest a skin cancer. Look for:
+
+any crusty, non-healing sores,small lumps that are red, pale or pearly in colour,new spots, freckles or any moles changing in colour, thickness or shape over a period of weeks to months. </string>
 
 
 </resources>
