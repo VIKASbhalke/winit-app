@@ -11,22 +11,20 @@
         android:id="@+id/send_feedback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="328dp"
+        android:layout_marginTop="300dp"
         android:text="@string/send_feedback"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/enterusern"
+        android:id="@+id/your_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="72dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/enterusern"
-        android:hint="@string/name_textview"
-        android:textColorHint="@color/colorAccent"
+        android:hint="@string/your_name"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,19 +32,17 @@
         android:importantForAutofill="no" />
 
     <EditText
-        android:id="@+id/feedbacksubmit"
+        android:id="@+id/type_feedback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/feedbacksubmit"
         android:hint="@string/type_feedback"
-        android:textColorHint="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/enterusern"
+        app:layout_constraintTop_toBottomOf="@+id/your_name"
         android:importantForAutofill="no" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -14,8 +14,8 @@ import com.google.firebase.database.FirebaseDatabase;
 
 
 public class feedbackActivity extends AppCompatActivity {
- EditText enterusern;
- EditText feedbacksubmit;
+ EditText your_name;
+ EditText type_feedback;
  Button  send_feedback;
     DatabaseReference databaseuser;
     @Override
@@ -23,8 +23,8 @@ public class feedbackActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feedback);
         databaseuser= FirebaseDatabase.getInstance().getReference();
-        enterusern=findViewById(R.id.enterusern);
-        feedbacksubmit=findViewById(R.id.feedbacksubmit);
+        your_name=findViewById(R.id.your_name);
+        type_feedback=findViewById(R.id.type_feedback);
         send_feedback=findViewById(R.id.send_feedback);
         send_feedback.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,8 +34,8 @@ public class feedbackActivity extends AppCompatActivity {
         });
     }
     private void adduser(){
-        String names=enterusern.getText().toString().trim();
-        String feedbacks=feedbacksubmit.getText().toString().trim();
+        String names=your_name.getText().toString().trim();
+        String feedbacks=type_feedback.getText().toString().trim();
         if(!TextUtils.isEmpty(names)){
            String id=databaseuser.push().getKey();
            user xyz=new user(id,names,feedbacks);
