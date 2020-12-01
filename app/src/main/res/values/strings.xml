@@ -8,7 +8,6 @@
     <string name="schedule">schedulebtn</string>
     <string name="date_view">Set the Date</string>
     <string name="send_to">send to:</string>
-    <string name="email_body" translatable="false">email body:</string>
     <string name="lungcanbutton">lung</string>
     <string name="skincanbutton">skin</string>
     <string name="colcanbutton">col</string>
@@ -38,9 +37,7 @@
     <string name="cell_carcinoma">1.basal cell carcinoma 2.squamous cell carcinoma 3.melanoma</string>
     <string name="sym_skincaan">Skin cancer symptoms</string>
     <string name="sksym">The sooner a skin cancer is identified and treated, the better your chance of avoiding surgery or, in the case of a serious melanoma or other skin cancer, potential disfigurement or even death.</string>
-    <string name="skcann">It is also a good idea to talk to your doctor about your level of risk and for advice on early detection.Become familiar with the look of your skin, so you pick up any changes that might suggest a skin cancer. Look for:
-
-any crusty, non-healing sores,small lumps that are red, pale or pearly in colour,new spots, freckles or any moles changing in colour, thickness or shape over a period of weeks to months. </string>
+    <string name="skcann">It is also a good idea to talk to your doctor about your level of risk and for advice on early detection.Become familiar with the look of your skin, so you pick up any changes that might suggest a skin cancer. Look for:any crusty, non-healing sores,small lumps that are red, pale or pearly in colour </string>
 
 
 </resources>
