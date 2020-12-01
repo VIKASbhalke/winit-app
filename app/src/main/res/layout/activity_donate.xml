@@ -5,16 +5,4 @@
     android:id="@+id/conslfour"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".donateActivity">
-
-    <Button
-        android:id="@+id/paynow"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/pay_nowbutton"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="315dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+    tools:context=".donateActivity"/>
