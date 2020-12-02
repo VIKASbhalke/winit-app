@@ -34,6 +34,9 @@
     <string name="skcann">It is also a good idea to talk to your doctor about your level of risk and for advice on early detection.Become familiar with the look of your skin, so you pick up any changes that might suggest a skin cancer. Look for:any crusty, non-healing sores,small lumps that are red, pale or pearly in colour </string>
     <string name="your_name">your name</string>
     <string name="type_feedback">type feedback</string>
-
+    <string name="prostate_cancer">Prostate cancer</string>
+    <string name="prostate_cancer_is_cancer_that_occurs_in_the_prostate_the_prostate_is_a_small_walnut_shaped_gland_in_males_that_produces_the_seminal_fluid_that_nourishes_and_t">Prostate cancer is cancer that occurs in the prostate. The prostate is a small walnut-shaped gland in males that produces the seminal fluid that nourishes and transports sperm. Prostate cancer is one of the most common types of cancer. Many prostate cancers grow slowly and are confined to the prostate gland, where they may not cause serious harm. However, while some types of prostate cancer grow slowly and may need minimal or even no treatment, other types are aggressive and can spread quickly.</string>
+    <string name="symptoms_prostate_cancer_may_cause_no_signs_or_symptoms_in_its_early_stages_prostate_cancer_that_s_more_advanced_may_cause_signs_and_symptoms_such_as_trouble_urinating_decreased_force_in_the_stream_of_urine_blood_in_the_urine_blood_in_the_semen_bone_pain_losing_weight_without_trying_erectile_dysfunction">Symptoms:Prostate cancer may cause no signs or symptoms in its early stages. Prostate cancer that is more advanced may cause signs and symptoms such as: Trouble urinating Decreased force in the stream of urine ,Blood in the urine, Blood in the semen ,Bone pain ,Losing weight without trying Erectile dysfunction</string>
+    <string name="prcansymp">symptoms</string>
 
 </resources>
