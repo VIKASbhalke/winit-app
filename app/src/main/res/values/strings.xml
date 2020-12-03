@@ -66,5 +66,6 @@ Breast cancer can spread outside the breast through blood vessels and lymph vess
     <string name="subject">subject</string>
     <string name="body_of_the_mail">body of the mail</string>
     <string name="send_email">Send email</string>
+    <string name="gdgd">Choose an Email client :</string>
 
 </resources>
