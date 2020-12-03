@@ -62,5 +62,9 @@ Breast cancer can spread outside the breast through blood vessels and lymph vess
     <string name="signs_and_symptoms_of_colon_cancer_include">Signs and symptoms of colon cancer include:</string>
     <string name="lung_cancer_symptoms">Lung cancer symptoms</string>
     <string name="prostate_cancer_symptoms">prostate cancer symptoms:</string>
+    <string name="email_id">email id</string>
+    <string name="subject">subject</string>
+    <string name="body_of_the_mail">body of the mail</string>
+    <string name="send_email">Send email</string>
 
 </resources>
