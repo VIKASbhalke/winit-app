@@ -31,7 +31,15 @@
     <string name="cell_carcinoma">1.basal cell carcinoma 2.squamous cell carcinoma 3.melanoma</string>
     <string name="sym_skincaan">Skin cancer symptoms</string>
     <string name="sksym">The sooner a skin cancer is identified and treated, the better your chance of avoiding surgery or, in the case of a serious melanoma or other skin cancer, potential disfigurement or even death.</string>
-    <string name="skcann">It is also a good idea to talk to your doctor about your level of risk and for advice on early detection.Become familiar with the look of your skin, so you pick up any changes that might suggest a skin cancer. Look for:any crusty, non-healing sores,small lumps that are red, pale or pearly in colour </string>
+    <string name="skcann">It is also a good idea to talk to your doctor about your level of risk and for advice on early detection.Become familiar with the look of your skin, so you pick up any changes that might suggest a skin cancer. Look for:any crusty, non-healing sores,small lumps that are red, pale or pearly in colour,new spots, freckles or any moles changing in colour, thickness or shape over a period of weeks to months.Both basal cell carcinoma and squamous cell carcinoma are known as non-melanoma skin cancer or keratinocyte cancers. Keratinocyte cancer is more common in men, with almost double the incidence compared to women.
+
+Melanoma is the third most common cancer in Australians. In 2015, 13,694  Australians were diagnosed with melanoma.
+
+Every year, in Australia:
+
+skin cancers account for around 80% of all newly diagnosed cancers
+the majority of skin cancers are caused by exposure to the sun
+the incidence of skin cancer is one of the highest in the world, two to three times the rates in Canada, the US and the UK. </string>
     <string name="your_name">your name</string>
     <string name="type_feedback">type feedback</string>
     <string name="prostate_cancer">Prostate cancer</string>
@@ -40,6 +48,19 @@
     <string name="prcansymp">symptoms</string>
     <string name="lung_cancer">Lung cancer</string>
     <string name="lungcannfoxyz">Lung cancer is a type of cancer that begins in the lungs. Your lungs are two spongy organs in your chest that take in oxygen when you inhale and release carbon dioxide when you exhale. Lung cancer is the leading cause of cancer deaths worldwide. People who smoke have the greatest risk of lung cancer, though lung cancer can also occur in people who have never smoked. The risk of lung cancer increases with the length of time and number of cigarettes you have smoked. If you quit smoking, even after smoking for many years, you can significantly reduce your chances of developing lung cancer.</string>
-    <string name="lungcantwo">Symptoms :Lung cancer typically does not cause signs and symptoms in its earliest stages. Signs and symptoms of lung cancer typically occur when the disease is advanced. Signs and symptoms of lung cancer may include: A new cough that does not go away Coughing up blood, even a small amount Shortness of breath Chest pain Hoarseness Losing weight without trying Bone pain Headache</string>
+    <string name="lungcantwo">Lung cancer typically does not cause signs and symptoms in its earliest stages. Signs and symptoms of lung cancer typically occur when the disease is advanced. Signs and symptoms of lung cancer may include: A new cough that does not go away Coughing up blood, even a small amount Shortness of breath Chest pain Hoarseness Losing weight without trying Bone pain Headache</string>
+    <string name="breast_cancer">Breast cancer</string>
+    <string name="brcanfoone">Breast cancer is a disease in which cells in the breast grow out of control. There are different kinds of breast cancer. The kind of breast cancer depends on which cells in the breast turn into cancer.Breast cancer can begin in different parts of the breast. A breast is made up of three main parts: lobules, ducts, and connective tissue. The lobules are the glands that produce milk. The ducts are tubes that carry milk to the nipple. The connective tissue (which consists of fibrous and fatty tissue) surrounds and holds everything together. Most breast cancers begin in the ducts or lobules.
+
+Breast cancer can spread outside the breast through blood vessels and lymph vessels. When breast cancer spreads to other parts of the body, it is said to have metastasized.
+</string>
+    <string name="kinds_of_breast_cancer">Kinds of Breast Cancer</string>
+    <string name="brecanfoooo">The most common kinds of breast cancer are— Invasive ductal carcinoma. The cancer cells grow outside the ducts into other parts of the breast tissue. Invasive cancer cells can also spread, or metastasize, to other parts of the body. Invasive lobular carcinoma. Cancer cells spread from the lobules to the breast tissues that are close by. These invasive cancer cells can also spread to other parts of the body.</string>
+    <string name="colorectal_cancer">Colorectal cancer</string>
+    <string name="coloncannfo">Colon cancer is a type of cancer that begins in the large intestine (colon). The colon is the final part of the digestive tract. Colon cancer typically affects older adults, though it can happen at any age. It usually begins as small, noncancerous (benign) clumps of cells called polyps that form on the inside of the colon. Over time some of these polyps can become colon cancers.Polyps may be small and produce few, if any, symptoms. For this reason, doctors recommend regular screening tests to help prevent colon cancer by identifying and removing polyps before they turn into cancer. If colon cancer develops, many treatments are available to help control it, including surgery, radiation therapy and drug treatments, such as chemotherapy, targeted therapy and immunotherapy.</string>
+    <string name="a_persistent_change_in_your_bowel_habits_including_diarrhea_or_constipation_or_a_change_in_the_consistency_of_your_stool_rectal_bleeding_or_blood_in_your_stool_persistent_abdominal_discomfort_such_as_cramps_gas_or_pain_a_feeling_that_your_bowel_doesn_t_empty_completely_weakness_or_fatigue_unexplained_weight_loss_many_people_with_colon_cancer_experience_no_symptoms_in_the_early_stages_of_the_disease_when_symptoms_appear_they_ll_likely_vary_depending_on_the_cancer_s_size_and_location_in_your_large_intestine">A persistent change in your bowel habits, including diarrhea or constipation or a change in the consistency of your stool Rectal bleeding or blood in your stool Persistent abdominal discomfort, such as cramps, gas or pain A feeling that your bowel does not empty completely Weakness or fatigue Unexplained weight loss Many people with colon cancer experience no symptoms in the early stages of the disease. When symptoms appear, they will likely vary, depending on the cancer size and location in your large intestine.</string>
+    <string name="signs_and_symptoms_of_colon_cancer_include">Signs and symptoms of colon cancer include:</string>
+    <string name="lung_cancer_symptoms">Lung cancer symptoms</string>
+    <string name="prostate_cancer_symptoms">prostate cancer symptoms:</string>
 
 </resources>
