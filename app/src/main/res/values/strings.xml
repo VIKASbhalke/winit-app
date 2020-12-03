@@ -13,10 +13,7 @@
     <string name="colcanbutton">col</string>
     <string name="brecanbutton">brecan</string>
     <string name="prcanbutton">prcan</string>
-    <string name="amount">Amount</string>
-    <string name="enter_name">NAME</string>
-    <string name="upi_id_">upi id:</string>
-    <string name="pay_nowbutton">pay now</string>
+
     <string name="type_event">Type event</string>
     <string name="addeventbtn">add event</string>
     <string name="remind_me">Remind me</string>
@@ -69,7 +66,7 @@ Breast cancer can spread outside the breast through blood vessels and lymph vess
     <string name="gdgd">Choose an Email client :</string>
     <string name="name">name</string>
     <string name="upi_id">Upi id:</string>
-    <string name="amount">Amount</string>
+    <string name="amountps">Amount</string>
     <string name="pay_now">pay now</string>
 
 </resources>
