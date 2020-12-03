@@ -17,12 +17,12 @@ public class feedbackActivity extends AppCompatActivity {
  EditText your_name;
  EditText type_feedback;
  Button  send_feedback;
-    DatabaseReference databaseuser;
+    DatabaseReference databasereference;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feedback);
-        databaseuser= FirebaseDatabase.getInstance().getReference();
+        databasereference= FirebaseDatabase.getInstance().getReference("users");
         your_name=findViewById(R.id.your_name);
         type_feedback=findViewById(R.id.type_feedback);
         send_feedback=findViewById(R.id.send_feedback);
@@ -34,12 +34,12 @@ public class feedbackActivity extends AppCompatActivity {
         });
     }
     private void adduser(){
-        String names=your_name.getText().toString().trim();
-        String feedbacks=type_feedback.getText().toString().trim();
-        if(!TextUtils.isEmpty(names)){
-           String id=databaseuser.push().getKey();
-           user xyz=new user(id,names,feedbacks);
-           databaseuser.child(id).setValue(xyz);
+        String username=your_name.getText().toString().trim();
+        String userfeedback=type_feedback.getText().toString().trim();
+        if(!TextUtils.isEmpty(username)){
+           String id=databasereference.push().getKey();
+           user xyz=new user(id,username,userfeedback);
+           databasereference.child(id).setValue(xyz);
             Toast.makeText(this, "data stored successfully", Toast.LENGTH_LONG).show();
         }else{
             Toast.makeText(this,"you should enter name",Toast.LENGTH_LONG).show();
