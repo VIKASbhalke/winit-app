@@ -22,7 +22,7 @@ public class feedbackActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feedback);
-        databasereference= FirebaseDatabase.getInstance().getReference("users");
+        databasereference= FirebaseDatabase.getInstance().getReference("reference");
         your_name=findViewById(R.id.your_name);
         type_feedback=findViewById(R.id.type_feedback);
         send_feedback=findViewById(R.id.send_feedback);
@@ -38,8 +38,8 @@ public class feedbackActivity extends AppCompatActivity {
         String userfeedback=type_feedback.getText().toString().trim();
         if(!TextUtils.isEmpty(username)){
            String id=databasereference.push().getKey();
-           user xyz=new user(id,username,userfeedback);
-           databasereference.child(id).setValue(xyz);
+           user reference=new user(id,username,userfeedback);
+           databasereference.child(id).setValue(reference);
             Toast.makeText(this, "data stored successfully", Toast.LENGTH_LONG).show();
         }else{
             Toast.makeText(this,"you should enter name",Toast.LENGTH_LONG).show();
